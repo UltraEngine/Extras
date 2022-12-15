@@ -1,1 +1,4 @@
-
+{
+    "clamp": [true, true, true],
+    "filter": 1
+}
