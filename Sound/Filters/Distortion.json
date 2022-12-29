@@ -1,1 +1,21 @@
-
+{
+    "audioFilter":
+    {
+        "type": 3,
+        "MinEdge": 0,
+        "MaxEdge": 1,
+        "DefaultEdge": 0.2,
+        "MinGain": 0.01,
+        "MaxGain": 1,
+        "DefaultGain": 0.05,
+        "MinLowpassCutoff": 80,
+        "MaxLowpassCutoff": 24000,
+        "DefaultLowpassCutoff": 8000,
+        "MinEQCenter": 80,
+        "MaxEQCenter": 24000,
+        "DefaultEQCenter": 3600,
+        "MinEQBand": 80,
+        "MaxEQBand": 24000,
+        "DefaultEQBand": 3600
+    }
+}
