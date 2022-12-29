@@ -1,0 +1,29 @@
+{
+	"audioFilter":
+	{
+		"type": 32768,
+		"AirAbsorptionGainHF": 0.9943,
+		"DecayHFRatio": 0.38,
+		"DecayLFRatio": 0.35,
+		"DecayTime": 1.38,
+		"Density": 1,
+		"Diffusion": 0.82,
+		"EchoDepth": 0.17,
+		"EchoTime": 0.121,
+		"Gain": 0.3162,
+		"GainHF": 0.1122,
+		"GainLF": 0.1585,
+		"HFReference": 2854.4,
+		"LateReverbGain": 0.631,
+		"LateReverbPan": [0, 0, 0],
+		"LFReference": 107.5,
+		"LateReverbDelay": 0.044,
+		"ModulationDepth": 0,
+		"ModulationTime": 0.25,
+		"ReflectionsDelay": 0.024,
+		"ReflectionsGain": 0.8913,
+		"ReflectionsPan": [0, 0, -0],
+		"RoomRolloffFactor": 0,
+		"DecayHFLimit": 0
+	}
+}
