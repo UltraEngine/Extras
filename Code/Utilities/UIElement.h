@@ -15,3 +15,31 @@ namespace UltraEngine
 #ifdef LUA_VERSION
 SOL_BASE_CLASSES(UltraEngine::UIElement, UltraEngine::Widget, UltraEngine::Object);
 #endif
+
+/* 
+// Example usage
+
+class MainPanel : public UIElement
+{
+public:
+	shared_ptr<Widget> panel, button;
+
+	bool Initialize(int x, int y, int width, int height, shared_ptr<Widget> parent)
+	{
+		panel = CreatePanel(x, y, width, height);
+		button = CreateButton("TEST", 20, 20, 80, 30, panel);
+		Listen(EVENT_WIDGETACTION, button);
+		return true;
+	}
+      
+	bool ProcessEvent(const Event& e)
+	{
+		if (e.id == EVENT_WIDGETACTION and e.source == button)
+		{
+			Print("PRESS");
+			return false;// stop processing this event
+		}
+		return true;// allow other hooks to process the event
+	}
+};
+*/
