@@ -26,7 +26,7 @@ public:
 
 	bool Initialize(int x, int y, int width, int height, shared_ptr<Widget> parent)
 	{
-		panel = CreatePanel(x, y, width, height);
+		panel = CreatePanel(x, y, width, height, parent);
 		button = CreateButton("TEST", 20, 20, 80, 30, panel);
 		Listen(EVENT_WIDGETACTION, button);
 		return true;
